@@ -1,0 +1,4 @@
+apply plugin:'com.github.dcendents:android-maven-gradle-plugin'
+group:'com.github.vbhaskerabotla-bsft'
+configurations.maybeCreate("default")
+artifacts.add("default", file('okhttp-3.14.3.jar'))
